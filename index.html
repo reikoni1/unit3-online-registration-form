@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online-registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>THE CODE REVIEW</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="upper-info">
+            <h1 class="title">Signup for our newsletter</h1>
+            <p class="undertitle">Get the latest news on how your code is doing right in your inbox</p>
+            </div>
+            <hr class="hr1">
+            <form>
+
+                <div>
+                    <fieldset class="contact-info">
+                        <legend><h2>Contact Information</h2></legend>
+                        <div class="righe">
+                            <label for="name">Full Name</label>
+                            <input required type="text" id="name" name="user-name" placeholder="Required">
+                        </div>
+                        <div class="righe">
+                            <label for="email">Email Adress</label>
+                            <input required="" type="email" id="email" name="user-email" placeholder="Required">
+                        </div>
+                        <div class="righe">
+                            <label for="phone">Phone Number</label>
+                            <input required type="tel" id="phone" name="user-phone" placeholder="Required">
+                        </div>
+                        <div class="righe">
+                            <label for="adress">Street Adress</label>
+                            <input required type="text" id="adress" name="user-adress" placeholder="Required">
+                        </div>
+                        <div class="righe">
+                            <label for="city">City</label>
+                            <input required type="text" id="city" name="user-city" placeholder="Required">
+                        </div>
+                        <div class="righe">
+                            <label for="state-id">State</label>
+                            <select required name="state" id="state-id" >
+                                <option value="" disabled selected hidden>Please Choose...</option>
+                                <option value="Italy">Italy</option>
+                                <option value="French">French</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Usa">Usa</option>
+                                <option value="Uk">Uk</option>
+                            </select> 
+                        </div>
+                        <div class="righe">
+                            <label for="zip">Zip Code</label>
+                            <input required type="text" name="user-zip" id="zip" placeholder="Required">
+                        </div>
+
+                        <hr class="hr2">
+                    </fieldset>
+                </div>
+
+                <div>
+                    <fieldset class="newsletter">   
+                        <legend><h2>Newsletter</h2></legend>
+                        <p>Select the newsletter you wold like to receive</p>
+                        <input type="checkbox" name="newsletter-news" id="newsletter-html-id">
+                        <label for="newsletter-html-id">Html news</label><br>
+                        <input type="checkbox" name="newsletter-news" id="newsletter-css-id">
+                        <label for="newsletter-css-id">CSS news</label><br>
+                        <input type="checkbox" name="newsletter-news" id="newsletter-javascript-id">
+                        <label for="newsletter-javascript-id">Javascript news</label>
+                        <p id="newsletter-format">newsletter format</p>
+                        <input type="radio" name="newsletter-format" id="html-format-id">
+                        <label for="html-format-id">HTML</label><br>
+                        <input type="radio" name="newsletter-format" id="plaintext-format-id">
+                        <label for="plaintext-format-id">Plain text</label><br>
+                        
+                        <div class="textbox">
+                            <label for="other-topics-id">Other topics you'd like to hear about</label> <br>
+                            <textarea name="other-topics" id="other-topics-id"></textarea>
+                        </div>     
+                        
+                        <input type="submit" value="Sign Up">
+                    </fieldset>
+                </div>
+            </form>
+
+            <footer>
+                <p>Copyright The Code Review</p>
+            </footer>
+        </div>
+    </main>
+    
+</body>
+
+</html>

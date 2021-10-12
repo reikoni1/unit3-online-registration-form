@@ -1,0 +1,334 @@
+
+@font-face {
+    font-family: "karbon";
+    src: url(font/karbon-regular-webfont.ttf);
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "karbon-bold";
+    src: url(font/karbon-semibold-webfont.ttf);
+    font-weight: bold; 
+}
+
+
+body {
+    font-family: "karbon";
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color:rgb(0, 12, 119);
+    background: radial-gradient( white, rgb(235, 235, 235));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+header {
+    display:flex;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(55, 57, 73);
+    color: white;
+    align-items: center;
+}
+
+h1 {
+    font-family: "karbon-bold";
+    margin: 0;
+}
+
+h2 {
+    font-family: "karbon-bold";
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.upper-info {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.undertitle {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.hr1 {
+    margin-top: 40px;
+    height: 3px;
+    background: black;
+    width: 100%;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.righe {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.righe > input {
+    width: 70%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(229, 228, 231);
+}
+
+label {
+    width: 30%;
+    flex-shrink: 0;
+}
+
+.righe > select {
+    width: 70%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 0;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(229, 228, 231);
+}
+
+#zip {
+    width: 30%;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 2px solid rgb(69, 54, 133);
+    transition: 0.3s;
+    transform: scale(1.05);
+  }
+
+  input[type="email"]:focus {
+    outline: none;
+    border: 2px solid rgb(69, 54, 133);
+    transition: 0.3s;
+    transform: scale(1.05);
+  }
+
+  input[type="tel"]:focus {
+    outline: none;
+    border: 2px solid rgb(69, 54, 133);
+    transition: 0.3s;
+    transform: scale(1.05);
+  }
+
+  #state-id:focus {
+    outline: none;
+    border: 2px solid rgb(69, 54, 133);
+    transition: 0.3s;
+    transform: scale(1.05);
+  }
+
+
+.righe > label {
+    color: rgb(22, 0, 83);
+}
+
+input::placeholder {
+    padding-left: 5px;
+}
+
+
+input[type="text"]::placeholder {
+    text-align: right;
+    padding-right: 5px;
+}
+
+input[type="email"]::placeholder {
+    text-align: right;
+    padding-right: 5px;
+}
+input[type="tel"]::placeholder {
+    text-align: right;
+    padding-right: 5px;
+}
+
+input[type="tel"]::placeholder:focus {
+    color: white;
+}
+
+
+.hr2 {
+    width: 100%;
+    margin-top: 30px;
+    height: 2px;
+    background: black;
+}
+
+.newsletter >  input{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#newsletter-format {
+    margin: 20px 0 5px 0;
+}
+
+
+.textbox {
+    margin-top: 30px;
+}
+
+.textbox >  *{
+    font-family: "karbon-bold";
+    margin: 10px 0;
+}
+
+p {
+    margin: 15px 0 5px 0;
+}
+.textbox > textarea {
+    width: 100%;
+    height: 100px;
+    background: rgb(236, 236, 236);
+    outline: none;
+    border: none;
+    font-family: "karbon";
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+textarea:focus {
+    outline: none;
+    border: 2px solid rgb(69, 54, 133);
+  }
+
+
+
+
+input[type="submit"]{
+    font-family: "karbon-bold";
+    background:turquoise;
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-size: 30px;
+    color: white;
+    border-radius:  5px;
+    margin-bottom: 50px;
+}
+
+input[type="submit"]:hover{
+    border: 2px solid rgb(0, 2, 134);
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 30px
+}
+
+
+
+
+
+
+
+
+fieldset {
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+input[type="text"]:valid {
+    background: url(images/iconmonstr-check-mark-7.svg) rgb(229, 228, 231);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 3px 15px;
+}
+input[type="email"]:valid {
+    background: url(images/iconmonstr-check-mark-7.svg) rgb(229, 228, 231);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 3px 15px;
+}
+input[type="tel"]:valid {
+    background: url(images/iconmonstr-check-mark-7.svg) rgb(229, 228, 231);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 3px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    
+
+    .container {
+        width: 90%;
+    }
+
+    .righe {
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .righe > input, select {
+        margin: 10px 0;
+        height: 50px;
+        width: 100%;
+    }
+}
