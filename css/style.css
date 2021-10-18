@@ -293,13 +293,31 @@ fieldset {
 
 
 input[name="user-name"]:valid {
-    background: url(images/iconmonstr-check-mark-7.svg) rgb(229, 228, 231);
+    background: url(../images/iconmonstr-check-mark-7.svg) rgb(229, 228, 231);
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 3px 15px;
 }
 input[type="email"]:valid {
-    background: url(images/iconmonstr-check-mark-7.svg) rgb(229, 228, 231);
+    background: url(../images/iconmonstr-check-mark-7.svg) rgb(229, 228, 231);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 3px 15px;
+}
+input[type="text"]:valid {
+    background: url(../images/iconmonstr-check-mark-7.svg) rgb(229, 228, 231);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 3px 15px;
+}
+input[type="tel"]:valid {
+    background: url(../images/iconmonstr-check-mark-7.svg) rgb(229, 228, 231);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 3px 15px;
+}
+select:valid {
+    background: url(../images/iconmonstr-check-mark-7.svg) rgb(229, 228, 231);
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 3px 15px;
